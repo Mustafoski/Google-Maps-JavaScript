@@ -43,7 +43,7 @@ function addMarker(props){
     });
     
     if(props.content){
-         var infoWindow = new google.map.InfoWindow({
+         var infoWindow = new google.maps.InfoWindow({
          content:props.content
     });
     
